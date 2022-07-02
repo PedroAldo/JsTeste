@@ -4,7 +4,7 @@ const resultado = document.querySelector(".resultado");
 
 function somaValor() {
     let num1 = parseInt(valor1.value);
-    if (num1 == 2) {
+    if (num1 == 2 || num1 == 3 || num1 == 5) {
         const conteudo = document.createTextNode(`O número é primo? Sim!`);
         resultado.textContent = "";
         resultado.appendChild(conteudo);
